@@ -1,3 +1,30 @@
+node_modules
+dist
+.temp
+cache
+.idea/
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnpm - store/
+
+# build output
+dist/
+.vitepress/dist/
+.vitepress/.temp/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.*
+.cache/
+lerna.json
+
 # Logs
 logs
 *.log
